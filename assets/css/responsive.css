@@ -1,0 +1,174 @@
+/* Responsive Adjustments */
+@media (min-width: 1500px) {
+ 
+}
+
+@media (max-width: 1650px) {
+  .px-120px{
+    padding: 0 25px !important;
+ }
+ .menu-item {
+  padding: 0 3px;
+  }
+ .menu-item a{
+    font-size: 15px;
+  }
+  .icon1,.icon2{
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 1300px) {
+  .menu-item {
+  padding: 0 3px;
+  }
+  .menu-item a{
+    font-size: 14px;
+  }
+  .icon1,.icon2{
+    font-size: 14px;
+  }
+  .site-branding{
+    top: -3px;
+  }
+  .transition-header .custom-logo {
+  max-width: 105px;
+}
+}
+@media (min-width: 992px) and (max-width: 1120px) {
+  .menu-item {
+  padding: 0 2px;
+  }
+  .menu-item a{
+    font-size: 13px;
+  }
+  .icon1,.icon2{
+    font-size: 12px;
+  }
+  .site-branding{
+    top: -3px;
+  }
+   .px-120px {
+    padding: 0 20px !important;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .user_icons{
+    right: 9%;
+  }
+  .icon2 .fa-phone{
+    padding: 13px;
+  }
+  .container-starter {
+  padding-top: 104px;
+}
+.steps-icons {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+.step-box{
+  height: fit-content !important;
+}
+
+  .curve-img {
+    display: none !important; 
+  }
+
+  .step-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .step-box {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .global-banner{
+  min-height: 450px;
+}
+.staff-section {
+  background-position: right;
+}
+}
+
+@media (max-width: 768px) {
+  .user_icons{
+    right: 9%;
+  }
+  
+  .icon2 .fa-phone{
+    padding: 13px;
+  }
+  .cta-section {
+  padding: 60px 0 50px;
+  }
+.container-starter {
+  padding-top: 104px;
+}
+.home-banner{
+    background-position: center right;
+    min-height: 450px;
+}
+.experience-box {
+    width: 200px;
+    height: 200px;
+    bottom: -7.5rem;
+    right: 2rem;
+  }
+  .home-help{
+  background-color: #f1f6f9;
+  padding: 40px 20px;
+}
+.our_vision{
+  padding: 40px 20px;
+  
+}
+.global-banner{
+  min-height: 450px;
+}
+.staff-section {
+  background-position: center right;
+  min-height: 630px;
+}
+}
+
+@media (max-width: 480px) {
+ .user_icons{
+    right: 15%;
+  }
+  .experience-box {
+    width: 120px;
+    height: 120px;
+    top: -2rem;
+    right: -1rem;
+    border-radius: 50%;
+  }
+.banner_subheading{
+    line-height: 2.5rem;
+}
+.home-banner p{
+    margin: 0;
+}
+
+}
+
+
+@media (max-width: 576px) {
+ .global-banner{
+  min-height: 200px;
+}
+}
+
+@media (max-width: 380px) {
+ .experience-box {
+   width: 120px;
+    height: 120px;
+    top: -2rem;
+    right: -1rem;
+    border-radius: 50%;
+  }
+}
