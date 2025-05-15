@@ -263,26 +263,41 @@ function work_for_us_shortcode() {
             <?php endif; ?>
             
             <?php if (!empty($slides)): ?>
-                <div class="work-for-us-quote-slider mt-5 mx-auto position-relative" style="max-width: 700px;">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+
+                <div class="work-for-us-quote-slider position-relative text-white">
+
+                    <!-- Quote Icon -->
                     <div class="quote-slider-header d-flex justify-content-center align-items-center mb-3">
-                        <div class="quote_icon fs-3">
+                        <div class="quote_icon fs-2">
                             <i class="fa-solid fa-quote-left"></i>
                         </div>
+                    </div>
+
+                    <!-- Arrows -->
+                    <div class="quote-slider-arrows d-flex justify-content-center gap-3 mb-3">
                         
                     </div>
-					<div class="quote-slider-arrows">
-                            
-                        </div>
 
+                    <!-- Slick Slider -->
                     <div class="slick-slider-quotes">
                         <?php foreach ($slides as $quote): ?>
-                            <div class="quote-slide text-center px-4">
-                                <blockquote class="blockquote text-white fst-italic">“<?= esc_html($quote); ?>”</blockquote>
+                            <div class="quote-slide text-center px-3">
+                                <blockquote class="blockquote text-white fst-italic mb-0">
+                                    “<?= esc_html($quote); ?>”
+                                </blockquote>
                             </div>
                         <?php endforeach; ?>
                     </div>
+
                 </div>
-            <?php endif; ?>
+
+            </div>
+        </div>
+    </div>
+<?php endif; ?>
         </div>
     </section>
 
